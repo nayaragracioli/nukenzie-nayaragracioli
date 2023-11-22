@@ -1,0 +1,40 @@
+.flexbox {
+    max-width: 2500px;
+    width: 100vw;
+    height: 69px;
+
+    display: flex;
+    align-items: center;
+
+   
+    background: var(--color-grey-1);
+    box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+
+
+    & > img {
+        width: 113px;
+        height: 18px;
+        margin: 27px 0px 24px 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .flexbox{
+        img {
+            width: 113px;
+            height: 18px;
+            margin: 27px 0px 24px 115px;
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .flexbox {
+        height: 88px;
+        img {
+            width: 122.678px;
+            height: 19.526px;
+            margin: 32px 0px 36.5px 261px;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    width: 100%;
+    max-width: 1200px;
+
+    input {
+        font-size: 1rem;
+        font-weight: 400;
+
+        display: flex;
+        
+        width: 286px;
+        height: 52.8px;
+        padding: 0px 16px;
+        align-items: center;
+        gap: 10px;
+
+        background-color: var(--color-grey-1);
+
+        border-radius: 8px;
+        border: 2px solidv var(--color-grey-1);
+    }
+}
+
+@media (min-width: 768px) {
+    .inputBox {
+        input {
+            width: 30rem;
+        }
+    }
+}
+
+@media (min-width: 1440px) {
+    .inputBox {
+        input {
+            width: 314px;
+        }
+    }
+}

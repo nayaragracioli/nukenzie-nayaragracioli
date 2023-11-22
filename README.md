@@ -1,1 +1,2 @@
-# nukenzie-nayaragracioli
+Esse projeto, tem o objetivo era gerenciar os gastos, cadastrando entradas e saídas.
+Os principais conceitos utilizados em React foram: Componentização, Prop drilling, Children, SASS e Responsividade. 

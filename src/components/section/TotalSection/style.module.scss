@@ -1,0 +1,39 @@
+.flexbox {
+    width: 88%;
+    height: 96px;
+    flex-shrink: 0;
+
+    border-radius: 4px;
+    border: 1px solid var(--color-grey-2);
+
+    margin-top: 19px;
+    margin-bottom: 19px;
+    padding: 20px 0px 0px 24px;
+
+    & > div {
+        display: flex;
+        justify-content: space-between;
+
+        .textValue {
+            width: 84px;
+            height: 30px;
+        }
+
+        .numValue {
+            width: 87px;
+            height: 30px;
+            color: var(--color-primary);
+        }
+    }
+
+    & > p {
+        width: 138px;
+        height: 22px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .flexbox {
+        width: 355px;
+    }
+}

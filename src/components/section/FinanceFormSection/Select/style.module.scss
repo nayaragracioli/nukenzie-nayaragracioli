@@ -1,0 +1,36 @@
+.selectBox {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    width: 100%;
+
+    select {
+        font-size: 1rem;
+        font-weight: 400;
+
+        width: 286px;
+        height: 52.8px;
+        padding: 0px 16px;
+
+        background-color: var(--color-grey-1);
+
+        border-radius: 8px;
+        border: 2px solidv var(--color-grey-1);
+    }
+}
+
+@media (min-width: 768px) {
+    .selectBox {
+        select {
+            width: 30rem;
+        }
+    }
+}
+
+@media (min-width: 1440px) {
+    .selectBox {
+        select {
+            width: 314px;
+        }
+    }
+}

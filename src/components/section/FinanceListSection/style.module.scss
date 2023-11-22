@@ -1,0 +1,18 @@
+.flexbox {
+    width: 88%;
+    height: 96px;
+
+   & > h3 {
+        margin-bottom: 16px;
+    }
+
+}
+
+@media (min-width: 1440px) {
+    .flexbox {
+        display: flex;
+        flex-direction: column;
+        width: 1200px;
+        margin: 39px 260px 0px 64px;
+    }
+}

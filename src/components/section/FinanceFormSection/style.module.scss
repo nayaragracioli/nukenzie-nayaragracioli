@@ -1,0 +1,44 @@
+.flexbox {
+    width: 88%;
+    height: 434px;
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   
+
+
+
+    border: 1px solid rgba(0, 0, 0, 0.20);
+
+
+    form {
+        width: 100%;
+        margin: 30px 0px 0px 22.93px;
+
+        .descriptionBox {
+            width: 314px;
+            height: 110px;
+            margin-bottom: 7px;
+        }
+
+        .valueBox {
+            width: 314px;
+            height: 79px;
+            margin-bottom: 16px;
+        }
+
+        .typeValueBox {
+            width: 313px;
+            height: 79px;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media (min-width: 1440px) {
+    .flexbox {
+        width: 355px;;
+    }
+}
